@@ -3,17 +3,17 @@ using namespace std;
 int main()
 {
     char ch;
-    scanf("%c",&ch);
+    cin>>ch;
     int test,i,a,j;
-    scanf("%d",&test);
+    cin>>test;
     for(i=1 ; i<=test ; i++)
     {
-        scanf("%d",&a);
+        cin>>a;
         for(j=1 ; j<=a ; j++)
         {
-            printf("%c",ch);
+            cout<<ch;
         }
-        printf("\n");
+        cout<<endl;
     }
     return 0;
 }
