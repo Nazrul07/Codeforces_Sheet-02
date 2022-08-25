@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    int test,i,a,j;
+    scanf("%d",&test);
+    for(i=1 ; i<=test ; i++)
+    {
+        scanf("%d",&a);
+        for(j=1 ; j<=a ; j++)
+        {
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+    return 0;
+}
